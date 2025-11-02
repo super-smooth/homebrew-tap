@@ -1,5 +1,5 @@
 issuer: https://token.actions.githubusercontent.com
-subject: repo:super-smooth/better-fg:ref:refs/heads/main
+subject_pattern: repo:super-smooth\/better-fg:ref:refs\/tags\/v.*
 claim_pattern:
   job_workflow_ref: super-smooth/better-fg/.github/workflows/release.yml@.*
 permissions:
