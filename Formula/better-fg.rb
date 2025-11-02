@@ -5,20 +5,20 @@ class BetterFg < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/super-smooth/better-fg/releases/download/v.0.1.6/better-fg_Darwin_arm64.tar.gz"
-      sha256 "d711d1b16584f03f9188c3b3d51f81eea0527868cf36b7867f52a5035a057ee6"
+      url "https://github.com/super-smooth/better-fg/releases/download/v.0.1.7/better-fg_Darwin_arm64.tar.gz"
+      sha256 "sha256;43935d93fe61079cd5d160aefd048cee801f532674f8a53b7842fefd2b055b90"
     else
-      url "https://github.com/super-smooth/better-fg/releases/download/v.0.1.6/better-fg_Darwin_x86_64.tar.gz"
+      url "https://github.com/super-smooth/better-fg/releases/download/v.0.1.7/better-fg_Darwin_x86_64.tar.gz"
       sha256 "sha256:030ba8533f90c547b3777ad18f6f75270b21240593b099a07960db22ca0c380d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/super-smooth/better-fg/releases/download/v.0.1.6/better-fg_Linux_arm64.tar.gz"
+      url "https://github.com/super-smooth/better-fg/releases/download/v.0.1.7/better-fg_Linux_arm64.tar.gz"
       sha256 "PLACEHOLDER_LINUX_ARM64_SHA"
     else
-      url "https://github.com/super-smooth/better-fg/releases/download/v.0.1.6/better-fg_Linux_x86_64.tar.gz"
+      url "https://github.com/super-smooth/better-fg/releases/download/v.0.1.7/better-fg_Linux_x86_64.tar.gz"
       sha256 "sha256:53002c3068a5bc525434936dee5fb832918b554d8bdb498c5956ede22e38a3dd"
     end
   end
