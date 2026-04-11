@@ -1,0 +1,6 @@
+issuer: https://token.actions.githubusercontent.com
+subject_pattern: repo:super-smooth\/ntd:ref:refs\/tags\/v.*
+claim_pattern:
+  job_workflow_ref: super-smooth/ntd/.github/workflows/release.yml@.*
+permissions:
+  contents: write
