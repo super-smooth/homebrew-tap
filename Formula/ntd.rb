@@ -5,18 +5,18 @@ class Ntd < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/super-smooth/ntd/releases/download/v1.0.2/ntd_Darwin_arm64.tar.gz"
-      sha256 "a1a20905bfeb806ddce5bb7ccaa0c7dc34646a118ab669c1bc14cd49a3205a9b"
+      url "https://github.com/super-smooth/ntd/releases/download/v1.0.3/ntd_Darwin_arm64.tar.gz"
+      sha256 "7c1a158d4134dd82ad2c2b6bf8689af26da8282d92965b29384f1f0a66f934b4"
     else
-      url "https://github.com/super-smooth/ntd/releases/download/v1.0.2/ntd_Darwin_x86_64.tar.gz"
-      sha256 "3d0afa85cabd6b1e8103e91745fc84282dd012df1f68603d4045e2aff57c07b4"
+      url "https://github.com/super-smooth/ntd/releases/download/v1.0.3/ntd_Darwin_x86_64.tar.gz"
+      sha256 "1db6ab8af1bcbd9e61513f73233d04c24a3c591b8057617fc77c2204773f1441"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/super-smooth/ntd/releases/download/v1.0.2/ntd_Linux_x86_64.tar.gz"
-      sha256 "c3802d6b9a2f233242b09816b08560e69114b1f6e8f53f159046ddb4bd2cbe7a"
+      url "https://github.com/super-smooth/ntd/releases/download/v1.0.3/ntd_Linux_x86_64.tar.gz"
+      sha256 "d725960e4dad9782778e740503fc5caa8b769347cd41eeffc5ce3640f6c303f1"
     end
   end
 
